@@ -64,3 +64,17 @@
 - Install Node.js using below commands
     - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
     - nvm install 22.10.0 
+- clone frontend and backend applications into server
+
+### Build frontend application
+- navigate to frontend application path
+- install dependencies -> `npm install`
+- run the build -> `npm run build`
+- Use `nginx` to deploy the frontend code
+- sudo apt update
+- sudo apt install nginx
+- sudo systemctl start nginx
+- sudo systemctl enable nginx
+- copy code from dist(build files) to /var/www/html/
+- sudo scp -r dist/* /var/www/html
+- Enable port :80 of your instance
