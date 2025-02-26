@@ -138,3 +138,6 @@
 - Write code for SESClient
 - Write code for sending email address
 - Make the email dynamic by passing more params to the run function
+
+### dotenv package
+- 
