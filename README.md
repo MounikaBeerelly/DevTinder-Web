@@ -110,7 +110,16 @@
         proxy_cache_bypass $http_upgrade;
     }
     ``
- - Save and Exit  CTRL + X → Y → Enter
- - sudo systemctl restart nginx
-
+- Save and Exit  CTRL + X → Y → Enter
+- sudo systemctl restart nginx
 - Modify BASE_URL in frontend project to "/api"
+
+### custom domain name:
+- Purchase domain name in GoDaddy
+- DNS management
+- Cloudflare - manage the DNS directly
+- signup on clouldfare and add domain name
+- change the name servers on goDaddy and point it to cloudflare
+- wait for sometime till your namesservers uodate => 15minutes
+- DNS record: a devtindet.in 3.145.67.195
+- Enable SSL for website in cloudflare
