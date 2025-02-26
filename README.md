@@ -123,3 +123,18 @@
 - wait for sometime till your namesservers uodate => 15minutes
 - DNS record: a devtindet.in 3.145.67.195
 - Enable SSL for website in cloudflare
+
+## Sending Email via SES
+- Create a IAM user
+- Give access to AmazonSESFullAccess
+- Amazon SES: create an identity
+- Verify your domain name
+- Verify an email address identity
+- Install AWS SDK -v3
+- code example https://github.com/awsdocs/sws-doc-sdk-examples/tree/main/javascriptv3/example_code/ses#code-examples
+- setup sesClient
+-  Access credentials should be created in IAM uder securityCredentials tab
+- Add the credentials to the env file
+- Write code for SESClient
+- Write code for sending email address
+- Make the email dynamic by passing more params to the run function
