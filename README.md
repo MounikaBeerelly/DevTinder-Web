@@ -140,4 +140,6 @@
 - Make the email dynamic by passing more params to the run function
 
 ### dotenv package
-- 
+- install dotenv package `npm install dotenv`
+- create .env file in backend root folder and add **JWT_secret key, PORT number aand DB connection url**
+- Manage multiple environments `https://npmjs.com/package/dotenv`
