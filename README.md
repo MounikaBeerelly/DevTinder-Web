@@ -110,5 +110,7 @@
         proxy_cache_bypass $http_upgrade;
     }
     ``
-    - Save and Exit  CTRL + X → Y → Enter
-    - sudo systemctl restart nginx
+ - Save and Exit  CTRL + X → Y → Enter
+ - sudo systemctl restart nginx
+
+- Modify BASE_URL in frontend project to "/api"
