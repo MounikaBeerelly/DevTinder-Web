@@ -143,3 +143,16 @@
 - install dotenv package `npm install dotenv`
 - create .env file in backend root folder and add **JWT_secret key, PORT number aand DB connection url**
 - Manage multiple environments `https://npmjs.com/package/dotenv`
+
+
+### Scheduling cron jobs
+- Installing cron package - npm install node-cron
+- Learning about cron expressions syntax - crontab.guru
+- schedule a job
+- date-fns/ moment for handling dates
+- find all the unique emailId who have got connection request in previous day
+- send email
+- explore queue mechanism to send bulk emails
+- Amazon SES bulk emails
+- Make sendEmail function dynamic
+- bee-queue & bull npm packages to handle queue mechanisms
