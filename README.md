@@ -156,3 +156,23 @@
 - Amazon SES bulk emails
 - Make sendEmail function dynamic
 - bee-queue & bull npm packages to handle queue mechanisms
+
+## Razorpay payment gateway integration:
+- It is one of the famous payment gateway provider.
+- Sign up on Razorpay & complete KYC
+- Go to razorpay account and open `Test mode dashboard`.
+- Create two APIs
+    - create order
+    - payment verify
+- FE - user clicks on `pay now` button, create order api trigger to the backend.
+- BE - sends create order + secret key to Razorpay.
+- Razorpay - creates orderId and send back to the backend.
+- BE - send order Id to the frontend.
+- FE - Once received the orderId, payment dashboard will open, and completes the payment.
+- Razorpay - After the payment, immediately Razorpay sent payment success/failure status to the backend.
+- FE - FE sends payment verify API to the backend.
+- BE - sent back to the success/failure message to the FE.
+
+### STEPS :
+- Create a premium page
+- Create an API for create payment annd verify payment
