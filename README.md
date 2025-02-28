@@ -174,5 +174,16 @@
 - BE - sent back to the success/failure message to the FE.
 
 ### STEPS :
-- Create a premium page
+- Create a Ui for premium page
 - Create an API for create payment annd verify payment
+- Added key and secret in env file
+- Initialized Razorpay in utils
+- Creating order on Razorpay
+- Create Schema and model
+- Saved the order in payments collection
+- make the API dynamic
+- setup razorpay webhook on live api
+- Ref - https://github.com/razorpay/razorpay-node/tree/master/documents
+- Ref - https://razorpay.com/docs/payments/server-integration/nodejs/integration-steps/#integrate-with-razorpay-payment-gateway
+- Ref - https://razorpay.com/docs/webhooks/validate-test/
+- Ref - https://razorpay.com/docs/webhooks/payloads/payments/
