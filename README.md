@@ -169,7 +169,7 @@
 - Razorpay - creates orderId and send back to the backend.
 - BE - send order Id to the frontend.
 - FE - Once received the orderId, payment dashboard will open, and completes the payment.
-- Razorpay - After the payment, immediately Razorpay sent payment success/failure status to the backend.
+- Razorpay (webhook) - After the payment, immediately Razorpay sent payment success/failure status to the backend.
 - FE - FE sends payment verify API to the backend.
 - BE - sent back to the success/failure message to the FE.
 
