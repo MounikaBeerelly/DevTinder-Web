@@ -187,3 +187,14 @@
 - Ref - https://razorpay.com/docs/payments/server-integration/nodejs/integration-steps/#integrate-with-razorpay-payment-gateway
 - Ref - https://razorpay.com/docs/webhooks/validate-test/
 - Ref - https://razorpay.com/docs/webhooks/payloads/payments/
+
+
+## Real time chat using web socket (`socket.io`)
+- `https://socket.io/docs/v4/`
+- Socket.io is a library
+    - low-latency
+    - bidirectional
+    - event-based communication between a client and a server
+- Build the UI for a chat window on /chat/:targetUSerID
+- Setup socket.io in backend
+- npm install socket.io
